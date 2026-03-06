@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INTERO Studio — Дизайн интерьера квартиры и дома</title>
+  <meta name="description" content="Студия дизайна интерьера INTERO — проектирование, визуализация, авторский надзор. Создаём пространства, в которых хочется жить.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Page Transition Overlay -->
+  <div class="page-transition active"></div>
+
+  <!-- Custom Cursor -->
+  <div class="custom-cursor"></div>
+
+  <!-- ==================== NAVIGATION ==================== -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <span class="nav__logo-dot"></span>
+        INTERO
+      </a>
+      <div class="nav__links">
+        <a href="index.html" class="nav__link active">Главная</a>
+        <a href="portfolio.html" class="nav__link">Портфолио</a>
+        <a href="services.html" class="nav__link">Услуги</a>
+        <a href="#contacts" class="nav__cta">Связаться</a>
+      </div>
+      <button class="nav__burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="nav__mobile-menu">
+    <a href="index.html" class="nav__mobile-link">Главная</a>
+    <a href="portfolio.html" class="nav__mobile-link">Портфолио</a>
+    <a href="services.html" class="nav__mobile-link">Услуги</a>
+    <a href="#contacts" class="nav__mobile-link">Связаться</a>
+  </div>
+
+  <!-- ==================== HERO ==================== -->
+  <section class="hero">
+    <div class="hero__bg">
+      <div class="placeholder-img placeholder-img--1 hero__bg-image" style="position:absolute;inset:0;">
+        <span class="placeholder-img__label" style="font-size:1.5rem;">Interior Photography</span>
+      </div>
+      <div class="hero__bg-gradient"></div>
+    </div>
+    <div class="hero__noise"></div>
+
+    <div class="container hero__content">
+      <p class="label hero__label">Студия дизайна интерьера</p>
+      <h1 class="hero__title">
+        Создаём<br>
+        пространства<br>
+        <em>для жизни</em>
+      </h1>
+      <p class="hero__subtitle">
+        Полный цикл проектирования интерьера — от концепции до реализации.
+        Электрика, вентиляция, визуализация и авторский надзор.
+      </p>
+      <div class="hero__actions">
+        <a href="portfolio.html" class="btn btn--primary">
+          Смотреть работы
+          <svg class="btn__arrow" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg>
+        </a>
+        <a href="services.html" class="btn btn--outline">Наши услуги</a>
+      </div>
+    </div>
+
+    <div class="hero__scroll-indicator">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT ==================== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="reveal-left">
+          <div class="about__image-wrapper">
+            <div class="placeholder-img placeholder-img--2 about__image" style="width:100%;height:100%;">
+              <span class="placeholder-img__label">Studio Photo</span>
+            </div>
+            <div class="about__image-accent"></div>
+          </div>
+        </div>
+        <div class="reveal-right">
+          <p class="label section-label">О студии</p>
+          <h2>Архитектура <em class="text-italic text-accent">комфорта</em></h2>
+          <div class="golden-divider"></div>
+          <p class="section__description">
+            INTERO — студия полного цикла проектирования интерьеров.
+            Мы создаём продуманные пространства, где каждая деталь
+            работает на комфорт: от расположения розеток до потоков
+            воздуха, от освещения до текстуры стен.
+          </p>
+          <p class="section__description" style="margin-top:16px;">
+            Наш подход объединяет эстетику и инженерию.
+            Мы не просто рисуем красивые картинки — мы проектируем
+            системы, которые делают дом по-настоящему удобным.
+          </p>
+          <div class="about__stats">
+            <div class="reveal stagger-1">
+              <div class="stat__number">150+</div>
+              <div class="stat__text">Реализованных<br>проектов</div>
+            </div>
+            <div class="reveal stagger-2">
+              <div class="stat__number">12</div>
+              <div class="stat__text">Лет<br>опыта</div>
+            </div>
+            <div class="reveal stagger-3">
+              <div class="stat__number">98%</div>
+              <div class="stat__text">Довольных<br>клиентов</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SERVICES PREVIEW ==================== -->
+  <section class="section section--alt" id="services">
+    <div class="container">
+      <div class="section__header reveal">
+        <p class="label section-label">Что мы делаем</p>
+        <h2>Полный цикл<br><em class="text-italic text-accent">проектирования</em></h2>
+        <p class="section__description">
+          От первой встречи до сдачи ключей — сопровождаем проект
+          на каждом этапе, обеспечивая безупречный результат.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <div class="service-card reveal stagger-1">
+          <div class="service-card__line"></div>
+          <span class="service-card__number">01</span>
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48"><rect x="6" y="6" width="36" height="36" rx="2"/><line x1="6" y1="18" x2="42" y2="18"/><line x1="18" y1="18" x2="18" y2="42"/><circle cx="30" cy="30" r="4"/></svg>
+          </div>
+          <h4>Дизайн интерьера</h4>
+          <p>Разработка концепции, планировочные решения, подбор материалов и мебели. Создаём уникальный стиль вашего пространства.</p>
+          <a href="services.html" class="service-card__link">
+            Подробнее
+            <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </a>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card reveal stagger-2">
+          <div class="service-card__line"></div>
+          <span class="service-card__number">02</span>
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="3"/><path d="M24 6v6M24 36v6M6 24h6M36 24h6"/><path d="M11.5 11.5l4.2 4.2M32.3 32.3l4.2 4.2M11.5 36.5l4.2-4.2M32.3 15.7l4.2-4.2"/><circle cx="24" cy="24" r="16"/></svg>
+          </div>
+          <h4>Проектирование электрики</h4>
+          <p>Схемы электроснабжения, расположение розеток и выключателей, световые сценарии, системы «умный дом».</p>
+          <a href="services.html" class="service-card__link">
+            Подробнее
+            <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </a>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card reveal stagger-3">
+          <div class="service-card__line"></div>
+          <span class="service-card__number">03</span>
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48"><path d="M8 40V16l16-10 16 10v24"/><path d="M18 40V28h12v12"/><path d="M8 16l16 10 16-10"/></svg>
+          </div>
+          <h4>3D-визуализация</h4>
+          <p>Фотореалистичные рендеры интерьера. Вы увидите свой будущий дом ещё до начала ремонта. Панорамные туры 360°.</p>
+          <a href="services.html" class="service-card__link">
+            Подробнее
+            <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </a>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card reveal stagger-4">
+          <div class="service-card__line"></div>
+          <span class="service-card__number">04</span>
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48"><path d="M12 36c0-8 6-12 12-16s12-8 12-16"/><path d="M6 36h36"/><path d="M16 42h16"/><line x1="24" y1="36" x2="24" y2="42"/><circle cx="36" cy="4" r="3"/></svg>
+          </div>
+          <h4>Вентиляция и кондиционирование</h4>
+          <p>Проектирование систем приточно-вытяжной вентиляции, кондиционирования. Чистый воздух и идеальный микроклимат.</p>
+          <a href="services.html" class="service-card__link">
+            Подробнее
+            <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </a>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="service-card reveal stagger-5">
+          <div class="service-card__line"></div>
+          <span class="service-card__number">05</span>
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48"><rect x="8" y="6" width="32" height="36" rx="2"/><line x1="14" y1="14" x2="34" y2="14"/><line x1="14" y1="22" x2="34" y2="22"/><line x1="14" y1="30" x2="26" y2="30"/><path d="M30 30l4 4 8-8"/></svg>
+          </div>
+          <h4>Расчёт материалов</h4>
+          <p>Точные сметы и спецификации. Рассчитаем количество каждого материала, поможем оптимизировать бюджет без потери качества.</p>
+          <a href="services.html" class="service-card__link">
+            Подробнее
+            <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FEATURED PROJECTS ==================== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section__header" style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:20px;">
+        <div class="reveal">
+          <p class="label section-label">Избранные проекты</p>
+          <h2>Наши <em class="text-italic text-accent">работы</em></h2>
+        </div>
+        <div class="reveal stagger-2">
+          <a href="portfolio.html" class="btn btn--text">
+            Все проекты
+            <svg class="btn__arrow" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="projects-scroll">
+        <!-- Project 1 -->
+        <a href="project.html" class="project-card">
+          <div class="project-card__image">
+            <div class="placeholder-img placeholder-img--1" style="aspect-ratio:3/4;">
+              <span class="placeholder-img__label">Penthouse Interior</span>
+            </div>
+          </div>
+          <div class="project-card__overlay">
+            <span class="project-card__category">Квартира</span>
+            <h3 class="project-card__title">Пентхаус на Патриарших</h3>
+            <span class="project-card__meta">180 м² &middot; Москва</span>
+          </div>
+          <div class="project-card__arrow">
+            <svg viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H6M12 4v6" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+        </a>
+
+        <!-- Project 2 -->
+        <a href="project.html" class="project-card">
+          <div class="project-card__image">
+            <div class="placeholder-img placeholder-img--2" style="aspect-ratio:3/4;">
+              <span class="placeholder-img__label">Modern Kitchen</span>
+            </div>
+          </div>
+          <div class="project-card__overlay">
+            <span class="project-card__category">Загородный дом</span>
+            <h3 class="project-card__title">Резиденция в Барвихе</h3>
+            <span class="project-card__meta">420 м² &middot; Московская обл.</span>
+          </div>
+          <div class="project-card__arrow">
+            <svg viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H6M12 4v6" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+        </a>
+
+        <!-- Project 3 -->
+        <a href="project.html" class="project-card">
+          <div class="project-card__image">
+            <div class="placeholder-img placeholder-img--3" style="aspect-ratio:3/4;">
+              <span class="placeholder-img__label">Minimalist Living</span>
+            </div>
+          </div>
+          <div class="project-card__overlay">
+            <span class="project-card__category">Квартира</span>
+            <h3 class="project-card__title">Лофт в Сити</h3>
+            <span class="project-card__meta">95 м² &middot; Москва</span>
+          </div>
+          <div class="project-card__arrow">
+            <svg viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H6M12 4v6" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+        </a>
+
+        <!-- Project 4 -->
+        <a href="project.html" class="project-card">
+          <div class="project-card__image">
+            <div class="placeholder-img placeholder-img--4" style="aspect-ratio:3/4;">
+              <span class="placeholder-img__label">Luxury Bathroom</span>
+            </div>
+          </div>
+          <div class="project-card__overlay">
+            <span class="project-card__category">Таунхаус</span>
+            <h3 class="project-card__title">Таунхаус в Химках</h3>
+            <span class="project-card__meta">260 м² &middot; Московская обл.</span>
+          </div>
+          <div class="project-card__arrow">
+            <svg viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H6M12 4v6" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== TESTIMONIAL ==================== -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="testimonial reveal">
+        <div class="testimonial__quote">
+          Команда INTERO превзошла все наши ожидания. Они не просто
+          сделали красивый интерьер — они продумали каждую мелочь,
+          от розеток до вентиляции. Живём в этой квартире уже два года
+          и каждый день благодарим их за работу.
+        </div>
+        <div class="testimonial__author">Александр и Мария Ивановы</div>
+        <div class="testimonial__role">Пентхаус на Патриарших, 180 м²</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CTA ==================== -->
+  <section class="section cta" id="contacts">
+    <div class="cta__bg-text">INTERO</div>
+    <div class="container" style="position:relative;z-index:1;">
+      <div class="reveal">
+        <p class="label" style="margin-bottom:20px;">Начните проект</p>
+        <h2>Готовы создать<br>идеальный <em class="text-italic text-accent">интерьер</em>?</h2>
+        <div class="golden-divider golden-divider--center" style="margin:28px auto;"></div>
+        <p>Свяжитесь с нами для бесплатной консультации и обсуждения вашего проекта.</p>
+        <div style="margin-top:40px;display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+          <a href="tel:+74951234567" class="btn btn--primary">
+            +7 (495) 123-45-67
+          </a>
+          <a href="mailto:hello@intero.studio" class="btn btn--outline">
+            hello@intero.studio
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <span class="nav__logo-dot"></span>
+            INTERO
+          </div>
+          <p>Студия дизайна интерьера полного цикла. Проектируем пространства, в которых хочется жить.</p>
+          <div class="footer__social">
+            <a href="#" aria-label="Telegram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+            </a>
+            <a href="#" aria-label="VK">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M7 12c0-2 1-5 4-5s3 3 3 3 0-3 3-3 4 3 4 5"/></svg>
+            </a>
+            <a href="#" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h5 class="footer__heading">Навигация</h5>
+          <ul class="footer__links">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="portfolio.html">Портфолио</a></li>
+            <li><a href="services.html">Услуги</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="footer__heading">Услуги</h5>
+          <ul class="footer__links">
+            <li><a href="services.html">Дизайн интерьера</a></li>
+            <li><a href="services.html">Электрика</a></li>
+            <li><a href="services.html">3D-визуализация</a></li>
+            <li><a href="services.html">Вентиляция</a></li>
+            <li><a href="services.html">Расчёт материалов</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="footer__heading">Контакты</h5>
+          <ul class="footer__links">
+            <li><a href="tel:+74951234567">+7 (495) 123-45-67</a></li>
+            <li><a href="mailto:hello@intero.studio">hello@intero.studio</a></li>
+            <li>Москва, ул. Примерная, 1</li>
+            <li>Пн-Пт: 10:00 — 19:00</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 INTERO Studio. Все права защищены.</p>
+        <p>Дизайн интерьера &middot; Проектирование &middot; Визуализация</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

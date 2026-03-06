@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Услуги — INTERO Studio</title>
+  <meta name="description" content="Услуги студии INTERO: дизайн интерьера, проектирование электрики, вентиляции, 3D-визуализация, расчёт материалов.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="page-transition active"></div>
+  <div class="custom-cursor"></div>
+
+  <!-- ==================== NAVIGATION ==================== -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <span class="nav__logo-dot"></span>
+        INTERO
+      </a>
+      <div class="nav__links">
+        <a href="index.html" class="nav__link">Главная</a>
+        <a href="portfolio.html" class="nav__link">Портфолио</a>
+        <a href="services.html" class="nav__link active">Услуги</a>
+        <a href="index.html#contacts" class="nav__cta">Связаться</a>
+      </div>
+      <button class="nav__burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="nav__mobile-menu">
+    <a href="index.html" class="nav__mobile-link">Главная</a>
+    <a href="portfolio.html" class="nav__mobile-link">Портфолио</a>
+    <a href="services.html" class="nav__mobile-link">Услуги</a>
+    <a href="index.html#contacts" class="nav__mobile-link">Связаться</a>
+  </div>
+
+  <!-- ==================== PAGE HERO ==================== -->
+  <section class="page-hero">
+    <div class="container">
+      <p class="label section-label" style="opacity:0;animation:fadeUp 0.8s 0.1s ease forwards;">Услуги</p>
+      <h1>Что мы<br><em class="text-italic text-accent">делаем</em></h1>
+      <p>Полный цикл проектирования интерьера — от первой встречи до финальной расстановки декора. Каждый этап продуман до мелочей.</p>
+    </div>
+  </section>
+
+  <!-- ==================== SERVICES DETAIL ==================== -->
+  <section class="section" style="padding-top:0;">
+    <div class="container">
+      <div class="service-detail">
+
+        <!-- Service 1: Дизайн интерьера -->
+        <div class="service-detail__item reveal">
+          <div class="service-detail__icon">
+            <svg viewBox="0 0 56 56"><rect x="8" y="8" width="40" height="40" rx="2"/><line x1="8" y1="22" x2="48" y2="22"/><line x1="22" y1="22" x2="22" y2="48"/><circle cx="35" cy="35" r="5"/><path d="M35 30v-4M35 44v-4M28 35h-4M44 35h-4"/></svg>
+          </div>
+          <h3>Дизайн интерьера</h3>
+          <p>
+            Создаём уникальные интерьерные решения, которые отражают
+            характер и образ жизни владельца. Разрабатываем планировку,
+            подбираем материалы, мебель и декор.
+          </p>
+          <div class="service-detail__features">
+            <div class="service-detail__feature">Обмерный план и анализ пространства</div>
+            <div class="service-detail__feature">Планировочные решения (2-3 варианта)</div>
+            <div class="service-detail__feature">Концепция стиля и цветовая палитра</div>
+            <div class="service-detail__feature">Развёртки стен и раскладка плитки</div>
+            <div class="service-detail__feature">Подбор мебели и декора по каталогам</div>
+            <div class="service-detail__feature">Рабочая документация для строителей</div>
+          </div>
+        </div>
+
+        <!-- Service 2: Проектирование электрики -->
+        <div class="service-detail__item reveal stagger-1">
+          <div class="service-detail__icon">
+            <svg viewBox="0 0 56 56"><path d="M28 8l-12 22h10l-4 18 18-26H30l6-14z"/><circle cx="28" cy="28" r="22" stroke-dasharray="4 4"/></svg>
+          </div>
+          <h3>Проектирование электрики</h3>
+          <p>
+            Профессиональные схемы электроснабжения с учётом всех
+            бытовых сценариев. Продумываем расположение каждой розетки,
+            выключателя и светильника.
+          </p>
+          <div class="service-detail__features">
+            <div class="service-detail__feature">План розеточных групп и выключателей</div>
+            <div class="service-detail__feature">Световые сценарии (основной, акцентный, ночной)</div>
+            <div class="service-detail__feature">Расчёт мощности и сечения кабелей</div>
+            <div class="service-detail__feature">Проектирование щитовой (автоматы, УЗО)</div>
+            <div class="service-detail__feature">Слаботочные системы (интернет, ТВ, домофон)</div>
+            <div class="service-detail__feature">Интеграция с системой «умный дом»</div>
+          </div>
+        </div>
+
+        <!-- Service 3: 3D-визуализация -->
+        <div class="service-detail__item reveal">
+          <div class="service-detail__icon">
+            <svg viewBox="0 0 56 56"><path d="M10 42V20l18-12 18 12v22"/><path d="M10 20l18 12 18-12"/><line x1="28" y1="32" x2="28" y2="48"/><rect x="18" y="38" width="8" height="10"/><rect x="30" y="38" width="8" height="10"/></svg>
+          </div>
+          <h3>3D-визуализация</h3>
+          <p>
+            Фотореалистичные рендеры, которые позволяют увидеть
+            будущий интерьер до начала ремонта. Каждая текстура,
+            свет и тень передаются с максимальной точностью.
+          </p>
+          <div class="service-detail__features">
+            <div class="service-detail__feature">Фотореалистичные рендеры высокого разрешения</div>
+            <div class="service-detail__feature">Панорамные виртуальные туры 360°</div>
+            <div class="service-detail__feature">Дневное и вечернее освещение</div>
+            <div class="service-detail__feature">Анимированные fly-through видео</div>
+            <div class="service-detail__feature">Визуализация с реальной мебелью из каталогов</div>
+            <div class="service-detail__feature">Быстрые правки и варианты отделки</div>
+          </div>
+        </div>
+
+        <!-- Service 4: Вентиляция -->
+        <div class="service-detail__item reveal stagger-1">
+          <div class="service-detail__icon">
+            <svg viewBox="0 0 56 56"><circle cx="28" cy="28" r="6"/><path d="M28 22c0-8-4-14-10-14"/><path d="M34 28c8 0 14-4 14-10"/><path d="M28 34c0 8 4 14 10 14"/><path d="M22 28c-8 0-14 4-14 10"/><circle cx="28" cy="28" r="20"/></svg>
+          </div>
+          <h3>Вентиляция и кондиционирование</h3>
+          <p>
+            Проектируем системы вентиляции и кондиционирования,
+            которые обеспечивают идеальный микроклимат. Свежий воздух
+            без шума и сквозняков.
+          </p>
+          <div class="service-detail__features">
+            <div class="service-detail__feature">Расчёт воздухообмена по нормам СНиП</div>
+            <div class="service-detail__feature">Приточно-вытяжная вентиляция с рекуперацией</div>
+            <div class="service-detail__feature">Мультизональные системы кондиционирования</div>
+            <div class="service-detail__feature">Скрытый монтаж в потолке и стенах</div>
+            <div class="service-detail__feature">Подбор оборудования ведущих производителей</div>
+            <div class="service-detail__feature">Снижение шума и вибрации</div>
+          </div>
+        </div>
+
+        <!-- Service 5: Расчёт материалов (full width) -->
+        <div class="service-detail__item reveal" style="grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:clamp(40px,5vw,80px);">
+          <div>
+            <div class="service-detail__icon">
+              <svg viewBox="0 0 56 56"><rect x="10" y="8" width="36" height="40" rx="2"/><line x1="18" y1="18" x2="38" y2="18"/><line x1="18" y1="26" x2="38" y2="26"/><line x1="18" y1="34" x2="30" y2="34"/><path d="M34 32l5 5 10-10" stroke-width="2"/></svg>
+            </div>
+            <h3>Расчёт материалов и смета</h3>
+            <p>
+              Точные расчёты каждого материала — от штукатурки до
+              последнего плинтуса. Формируем подробные сметы с
+              указанием артикулов и поставщиков. Помогаем оптимизировать
+              бюджет без потери качества.
+            </p>
+          </div>
+          <div class="service-detail__features" style="justify-content:center;">
+            <div class="service-detail__feature">Поштучный расчёт всех материалов</div>
+            <div class="service-detail__feature">Спецификации с артикулами и ценами</div>
+            <div class="service-detail__feature">Оптимизация бюджета (3 варианта сметы)</div>
+            <div class="service-detail__feature">Подбор аналогов при необходимости</div>
+            <div class="service-detail__feature">Работа с проверенными поставщиками</div>
+            <div class="service-detail__feature">Контроль расхода на этапе ремонта</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PROCESS ==================== -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section__header section__header--center reveal">
+        <p class="label section-label">Как мы работаем</p>
+        <h2>Процесс<br><em class="text-italic text-accent">создания</em></h2>
+        <p class="section__description">
+          Прозрачный и понятный процесс — вы всегда знаете,
+          на каком этапе находится ваш проект.
+        </p>
+      </div>
+
+      <div class="process-steps">
+        <div class="process-step reveal stagger-1">
+          <h4>Знакомство</h4>
+          <p>Бесплатная встреча, обсуждение пожеланий, осмотр объекта, определение бюджета и сроков.</p>
+          <div class="process-step__connector"></div>
+        </div>
+        <div class="process-step reveal stagger-2">
+          <h4>Концепция</h4>
+          <p>Разработка планировки, стилевой концепции, мудбордов. Согласование направления дизайна.</p>
+          <div class="process-step__connector"></div>
+        </div>
+        <div class="process-step reveal stagger-3">
+          <h4>Проектирование</h4>
+          <p>Полный комплект чертежей, 3D-визуализация, проекты инженерных систем, сметы.</p>
+          <div class="process-step__connector"></div>
+        </div>
+        <div class="process-step reveal stagger-4">
+          <h4>Реализация</h4>
+          <p>Авторский надзор на площадке, контроль качества, комплектация мебелью и финальный styling.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PRICING ==================== -->
+  <section class="section">
+    <div class="container">
+      <div class="section__header section__header--center reveal">
+        <p class="label section-label">Стоимость</p>
+        <h2>Пакеты <em class="text-italic text-accent">услуг</em></h2>
+        <p class="section__description">
+          Выберите подходящий пакет или свяжитесь с нами
+          для индивидуального расчёта.
+        </p>
+      </div>
+
+      <div class="pricing-grid">
+        <!-- Package 1 -->
+        <div class="pricing-card reveal stagger-1">
+          <h3>Базовый</h3>
+          <p class="pricing-card__desc">Планировка и концепция дизайна для самостоятельной реализации</p>
+          <div class="pricing-card__price">
+            от 2 500 <span>&#8381;/м²</span>
+          </div>
+          <p class="pricing-card__note">Срок: от 2 недель</p>
+          <div class="pricing-card__features">
+            <div class="pricing-card__feature">
+              <svg viewBox="0 0 18 18" fill="none"><path d="M3 9l4 4 8-8" stroke="currentColor" stroke-width="1.5"/></svg>
+              Обмерный план
+            </div>
+            <div class="pricing-card__feature">
+              <svg viewBox="0 0 18 18" fill="none"><path d="M3 9l4 4 8-8" stroke="currentColor" stroke-width="1.5"/></svg>
+              2 варианта планировки
+            </div>
+            <div class="pricing-card__feature">
+              <svg viewBox="0 0 18 18" fill="none"><path d="M3 9l4 4 8-8" stroke="currentColor" stroke-width="1.5"/></svg>
+              Стилевая концепция
+            </div>
+            <div class="pricing-card__feature">
+              <svg viewBox="0 0 18 18" fill="none"><path d="M3 9l4 4 8-8" stroke="currentColor" stroke-width="1.5"/></svg>
+              Подбор цветовой палитры
+            </div>
+            <div class="pricing-card__feature">
+              <svg viewBox="0 0 18 18" fill="none"><path d="M3 9l4 4 8-8" stroke="currentColor" stroke-width="1.5"/></svg>
+              Коллажи по помещениям
+            </div>
+          </div>
+          <a href="index.html#contacts" class="btn btn--outline" style="width:100%;justify-content:center;">Выбрать</a>
+        </div>
+
+        <!-- Package 2 (Featured) -->
+        <div class="pricing-card pricing-card--featured reveal stagger-2">
+          <span class="pricing-card__badge">Популярный</span>
+          <h3>Полный проект</h3>
+          <p class="pricing-card__desc">Комплексный дизайн-проект с визуализацией и инженерией</p>
+          <div class="pricing-card__price">
+            от 4 500 <span>&#8381;/м²</span>
+          </div>
+          <p class="pricing-card__note">Срок: от 4 недель</p>
+          <div class="pricing-card__features">
+            <div class="pricing-card__feature">
+              <svg viewBox="0 0 18 18" fill="none"><path d="M3 9l4 4 8-8" stroke="currentColor" stroke-width="1.5"/></svg>
+              Всё из пакета «Базовый»
+            </div>
+            <div class="pricing-card__feature">
+              <svg viewBox="0 0 18 18" fill="none"><path d="M3 9l4 4 8-8" stroke="currentColor" stroke-width="1.5"/></svg>
+              3D-визуализация (все комнаты)
+            </div>
+            <div class="pricing-card__feature">
+              <svg viewBox="0 0 18 18" fill="none"><path d="M3 9l4 4 8-8" stroke="currentColor" stroke-width="1.5"/></svg>
+              Проект электрики
+            </div>
+            <div class="pricing-card__feature">
+              <svg viewBox="0 0 18 18" fill="none"><path d="M3 9l4 4 8-8" stroke="currentColor" stroke-width="1.5"/></svg>
+              Проект вентиляции
+            </div>
+            <div class="pricing-card__feature">
+              <svg viewBox="0 0 18 18" fill="none"><path d="M3 9l4 4 8-8" stroke="currentColor" stroke-width="1.5"/></svg>
+              Полный комплект чертежей
+            </div>
+            <div class="pricing-card__feature">
+              <svg viewBox="0 0 18 18" fill="none"><path d="M3 9l4 4 8-8" stroke="currentColor" stroke-width="1.5"/></svg>
+              Расчёт материалов и смета
+            </div>
+          </div>
+          <a href="index.html#contacts" class="btn btn--primary" style="width:100%;justify-content:center;">Выбрать</a>
+        </div>
+
+        <!-- Package 3 -->
+        <div class="pricing-card reveal stagger-3">
+          <h3>Премиум</h3>
+          <p class="pricing-card__desc">Полное сопровождение от проекта до готового интерьера</p>
+          <div class="pricing-card__price">
+            от 7 000 <span>&#8381;/м²</span>
+          </div>
+          <p class="pricing-card__note">Срок: от 6 недель + ремонт</p>
+          <div class="pricing-card__features">
+            <div class="pricing-card__feature">
+              <svg viewBox="0 0 18 18" fill="none"><path d="M3 9l4 4 8-8" stroke="currentColor" stroke-width="1.5"/></svg>
+              Всё из пакета «Полный проект»
+            </div>
+            <div class="pricing-card__feature">
+              <svg viewBox="0 0 18 18" fill="none"><path d="M3 9l4 4 8-8" stroke="currentColor" stroke-width="1.5"/></svg>
+              Авторский надзор
+            </div>
+            <div class="pricing-card__feature">
+              <svg viewBox="0 0 18 18" fill="none"><path d="M3 9l4 4 8-8" stroke="currentColor" stroke-width="1.5"/></svg>
+              Комплектация мебелью и декором
+            </div>
+            <div class="pricing-card__feature">
+              <svg viewBox="0 0 18 18" fill="none"><path d="M3 9l4 4 8-8" stroke="currentColor" stroke-width="1.5"/></svg>
+              Панорамный тур 360°
+            </div>
+            <div class="pricing-card__feature">
+              <svg viewBox="0 0 18 18" fill="none"><path d="M3 9l4 4 8-8" stroke="currentColor" stroke-width="1.5"/></svg>
+              Финальный styling и фотосъёмка
+            </div>
+            <div class="pricing-card__feature">
+              <svg viewBox="0 0 18 18" fill="none"><path d="M3 9l4 4 8-8" stroke="currentColor" stroke-width="1.5"/></svg>
+              Персональный менеджер проекта
+            </div>
+          </div>
+          <a href="index.html#contacts" class="btn btn--outline" style="width:100%;justify-content:center;">Выбрать</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FAQ ==================== -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section__header reveal">
+        <p class="label section-label">Частые вопросы</p>
+        <h2>Вопросы и <em class="text-italic text-accent">ответы</em></h2>
+      </div>
+
+      <div style="max-width:800px;">
+        <div class="reveal stagger-1" style="padding:28px 0;border-bottom:1px solid rgba(196,162,101,0.08);">
+          <h4 style="margin-bottom:12px;cursor:pointer;">Сколько времени занимает разработка дизайн-проекта?</h4>
+          <p style="font-size:0.95rem;line-height:1.8;">
+            Базовый проект — от 2 недель, полный проект с визуализацией и инженерией — от 4 до 8 недель
+            в зависимости от площади объекта. Точные сроки обсуждаем на первой встрече.
+          </p>
+        </div>
+        <div class="reveal stagger-2" style="padding:28px 0;border-bottom:1px solid rgba(196,162,101,0.08);">
+          <h4 style="margin-bottom:12px;">Работаете ли вы с объектами за пределами Москвы?</h4>
+          <p style="font-size:0.95rem;line-height:1.8;">
+            Да, мы работаем по всей России и за рубежом. Для удалённых проектов используем
+            видеоконференции и выезжаем на ключевые этапы.
+          </p>
+        </div>
+        <div class="reveal stagger-3" style="padding:28px 0;border-bottom:1px solid rgba(196,162,101,0.08);">
+          <h4 style="margin-bottom:12px;">Можно ли заказать только один вид услуг?</h4>
+          <p style="font-size:0.95rem;line-height:1.8;">
+            Конечно. Вы можете заказать отдельно визуализацию, проект электрики или
+            расчёт материалов. Однако комплексный подход даёт лучший результат.
+          </p>
+        </div>
+        <div class="reveal stagger-4" style="padding:28px 0;border-bottom:1px solid rgba(196,162,101,0.08);">
+          <h4 style="margin-bottom:12px;">Сколько правок включено в проект?</h4>
+          <p style="font-size:0.95rem;line-height:1.8;">
+            В каждый пакет включено 2-3 раунда правок на этапе концепции и визуализации.
+            Мы работаем до полного вашего удовлетворения результатом.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CTA ==================== -->
+  <section class="section cta">
+    <div class="cta__bg-text">INTERO</div>
+    <div class="container" style="position:relative;z-index:1;">
+      <div class="reveal">
+        <p class="label" style="margin-bottom:20px;">Начните проект</p>
+        <h2>Готовы <em class="text-italic text-accent">начать</em>?</h2>
+        <div class="golden-divider golden-divider--center" style="margin:28px auto;"></div>
+        <p>Первая консультация бесплатно. Расскажите о вашем проекте,<br>и мы предложим оптимальное решение.</p>
+        <div style="margin-top:40px;display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+          <a href="tel:+74951234567" class="btn btn--primary">
+            +7 (495) 123-45-67
+          </a>
+          <a href="mailto:hello@intero.studio" class="btn btn--outline">
+            hello@intero.studio
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <span class="nav__logo-dot"></span>
+            INTERO
+          </div>
+          <p>Студия дизайна интерьера полного цикла. Проектируем пространства, в которых хочется жить.</p>
+          <div class="footer__social">
+            <a href="#" aria-label="Telegram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+            </a>
+            <a href="#" aria-label="VK">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M7 12c0-2 1-5 4-5s3 3 3 3 0-3 3-3 4 3 4 5"/></svg>
+            </a>
+            <a href="#" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h5 class="footer__heading">Навигация</h5>
+          <ul class="footer__links">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="portfolio.html">Портфолио</a></li>
+            <li><a href="services.html">Услуги</a></li>
+            <li><a href="index.html#contacts">Контакты</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="footer__heading">Услуги</h5>
+          <ul class="footer__links">
+            <li><a href="services.html">Дизайн интерьера</a></li>
+            <li><a href="services.html">Электрика</a></li>
+            <li><a href="services.html">3D-визуализация</a></li>
+            <li><a href="services.html">Вентиляция</a></li>
+            <li><a href="services.html">Расчёт материалов</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="footer__heading">Контакты</h5>
+          <ul class="footer__links">
+            <li><a href="tel:+74951234567">+7 (495) 123-45-67</a></li>
+            <li><a href="mailto:hello@intero.studio">hello@intero.studio</a></li>
+            <li>Москва, ул. Примерная, 1</li>
+            <li>Пн-Пт: 10:00 — 19:00</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 INTERO Studio. Все права защищены.</p>
+        <p>Дизайн интерьера &middot; Проектирование &middot; Визуализация</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
